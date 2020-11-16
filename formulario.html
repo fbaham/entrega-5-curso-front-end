@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--referencia a archivo de estilos-->
+    <link rel="stylesheet" href="assets/CSS/nysl2.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inscripcion | Northside Youth Soccer League</title>
+        
+</head>
+
+<body>
+  <div id="nav-bar">
+    <img class="logo2" src="assets/images/nysl_logo.png"  alt="Logo NYSL">
+    <div class="texto-encima">Northside Youth Soccer League</div>
+    <button style="background-color:green;" class="button" ><a href="Formulario3.html">Formulario Inscripción</a></button>
+    <button  class="button" ><a href="partidos.html">Games Info</a></button>
+    <button  class="button" ><a href="rules.html">Rules</a></button>
+    <button  class="button" ><a href="contact.html">Contact</a></button>
+    <button  class="button" ><a href="about.html">About</a></button>
+    <button  class="button" ><a href="index.html">Home</a></button>
+  </div>
+  <header>
+    <h1></h1>
+    <h2 >Formulario de Inscripción</h2>
+  </header>
+
+    <form action="#" method="POST">
+        <div class="grid-container">
+            <div class="grid-1" >Nombre Jugador</div>
+            <div class="grid-2"><input class="input-text" value="ingresa Nombre" type="text" name="nombre" id="nombre" /></div>
+            <div class="grid-1">Apellido Jugador</div>
+            <div class="grid-2"><input class="input-text" value="ingresa Apellido" type="text" name="apellido" id="apellido"/></div>
+            <div class="grid-1">Direccion</div>
+            <div class="grid-2"><input class="input-text" value="Ingrese Direccion" type="text" name="Direccion" id="direcion"/></div>
+
+            <div class="grid-1">Ciudad</div>
+            <div class="grid-2"><input class="input-text" value="Ingrese Ciudad" type="text" name="Ciudad" id="Ciudad"/></div>
+            <div class="grid-1">Codigo Postal</div>
+            <div class="grid-2"><input class="input-text" value="Ingrese Codigo Postal" type="text" name="Cpostal" id="Cpostal"/></div>
+
+            <div class="grid-1">Fecha de Nacimiento</div>
+            <div class="grid-2"><input class="input-text" value="ingresa Fecha" type="date" name="fnac" id="fnac"  /></div>
+            <div class="grid-1">Genero :</div>
+            <div class="grid-2">Masculino <input value="Masculino" type="radio" name="genero" id="masc" />
+            Femenino <input value="Femenino" type ="radio" name="genero" id="fem"/></div>
+
+            <div class="grid-1">Grado Escolar  :&nbsp;&nbsp;&nbsp;</div>
+            <div class="grid-2">Prescolar <input value="PRE" type="radio" name="grado" id="gp" />   &nbsp;&nbsp;&nbsp;
+                1° <input value="1" type ="radio" name="grado" id="g1"/>   &nbsp;&nbsp;&nbsp;
+                2° <input value="2" type ="radio" name="grado" id="g2"/>   &nbsp;&nbsp;&nbsp;
+                3° <input value="3" type ="radio" name="grado" id="g3"/>  &nbsp;&nbsp;&nbsp;
+                4° <input value="4" type ="radio" name="grado" id="g4"/>   &nbsp;&nbsp;&nbsp;
+                5° <input value="5" type ="radio" name="grado" id="g5"/></div>
+                <div class="grid-1">Indica la Escuela mas Cercana </div>
+                <div class="grid-2">
+                    AJ Katzenmaier <input value="E1" type="checkbox" name="e1" id="e1" /> &nbsp;&nbsp;&nbsp;
+                    Greenbay <input value="E2" type="checkbox" name="e2" id="e2" />&nbsp;&nbsp;&nbsp;
+                    Howard A Yeager <input value="E3" type ="checkbox" name="e3" id="e3"/>&nbsp;&nbsp;&nbsp;
+                    Marjorie P Hart <input value="E4" type="checkbox" name="e4" id="e4" /> &nbsp;&nbsp;&nbsp;
+                    North Elementary <input value="E5" type="checkbox" name="e5" id="e5" /><br>
+                    South Elementary <input value="E6" type ="checkbox" name="e6" id="e6"/></div>
+
+
+                <div class="grid-1">¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</div>                   
+                
+                <div class="grid-2"> Delantero <input value="p1" type="checkbox" name="p1" id="p1" />  &nbsp;&nbsp;&nbsp;
+                     Portero <input value="p2" type="checkbox" name="p2" id="p2" />&nbsp;&nbsp;&nbsp;
+                    Mediocampo <input value="p3" type ="checkbox" name="p3" id="p3"/>&nbsp;&nbsp;&nbsp;
+                    Defensa <input value="p4" type="checkbox" name="p4" id="p4" />
+                </div>
+
+                <div class="grid-1">Tamaño Uniforme </div>
+                <div class="grid-2">
+                    Niño P <input value="u1" type="checkbox" name="u1" id="u1" /> &nbsp;&nbsp;&nbsp;
+                    Niño M <input value="u2" type="checkbox" name="u2" id="u2" />&nbsp;&nbsp;&nbsp;
+                    Niño G <input value="u3" type ="checkbox" name="u3" id="u3"/>&nbsp;&nbsp;&nbsp;
+                    Pequeño <input value="u4" type="checkbox" name="u4" id="u4" /> &nbsp;&nbsp;&nbsp;
+                    Mediano <input value="u5" type="checkbox" name="u5" id="u5" />&nbsp;&nbsp;&nbsp;
+                    Grande <input value="u6" type ="checkbox" name="u6" id="u6"/>&nbsp;&nbsp;&nbsp;
+                    Extra Grande <input value="u7" type ="checkbox" name="u7" id="u7"/>
+                </div>
+                <div class="grid-3" >
+                    <hr>
+                    <h5>Permiso para Jugar</h5>
+                    
+                        <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+                        yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+                        de lesiones físicas asociadas al fútbol y en consideración a la "Liga" que acepta al solicitante de registro
+                        para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+                        personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+                        cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+                        solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.</p>
+  
+                        <p>Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+                        que he leído la política de cancelación y acepto sus términos.</p>
+                        <hr>
+                </div>
+                
+                    <div class="grid-1">Padre o Tutor que Autoriza:</div>
+                    <div class="grid-2"><input  class="input-text"  value="ingresa Nombre Autorizador" type="text" name="tutor" id="tutor"/></div>
+
+                    <div class="grid-1">Fecha Inscripcion:</div>
+                    <div class="grid-2"><input  class="input-text"  value="ingresa Nombre Autorizador" type="date" name="fi" id="fi"/></div>
+
+                <div class="grid-3"><input  type="submit"  value ="&nbsp;&nbsp;&nbsp;      ENVIAR      &nbsp;&nbsp;&nbsp; " ><br><br></div>
+            </div>
+        </div>      
+    </form>
+</body>
+</html>
+

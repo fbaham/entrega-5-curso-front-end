@@ -1,0 +1,346 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.button {
+    position: relative;
+    top: -20px;
+    right: 20px;
+    margin-left: 30px;
+    float: right;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: blue;
+    color:white;
+    z-index: 10; /*-- para asegurar que los botones esten sobre la imagen, a mas alto el index, mas alta es la prioridad de capal*/
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+
+h1{
+    background-image: url("../images/design2_image1.jpg");
+    margin-top: 30px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.texto-encima{
+    color:black;
+    font-style: oblique; /*-- le da formato de cursiva*/
+    font-size: 3em;
+    height: 70px;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+    margin-bottom: -40px;
+}
+
+
+h2{
+    color: black;
+    text-align:center;
+    border: solid black 2px;
+   padding: 0;
+   margin: 0%;
+}
+
+h4, h6{
+
+    font-style: oblique;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+h4{
+    text-decoration: underline;
+}
+  
+.logo{
+    margin-top: 30px;
+    width: 200px;
+    height:200px;
+    position: relative;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 300px;
+    
+}
+
+.logo2{
+    margin-top: 10px;
+    width: 100px;
+    height:100px;
+    position: relative;
+    margin-left: 10px;
+    float: left;
+    z-index:10;
+    
+}
+
+
+
+.boxmode{
+    height: 700px;
+    left:100px;
+     width: 1000px; 
+    padding: 20px;
+    position: relative;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+    position: relative;
+    text-indent: 30px; /*-- le agrega un identiado o sangria inicial*/
+}
+
+a{
+    color: white; /*-- color blanco de letra de Link*/
+    text-decoration:none; /*-- esto para que no se vea el subrayado del enlace o  link*/
+    display:block; /*--esto es para que link ocupe todo el boton y no solo el largo de la palabra*/
+}
+    
+h3{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 30;
+    font-size: 1.5em;  
+    
+}
+
+h5{
+margin-top: 10px;
+font-size: 1.5em;
+margin-left: 30px;
+padding: 30px;
+}
+
+li{
+    margin-left: 180px;
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+    margin-right: 100px;
+    
+}
+
+dt,dd{
+    display: inline;
+    font-size: 25px;
+}
+
+dt{
+    font-size: 25px;
+    font-weight: bold;    
+}
+
+dl{
+    font-size: 25px;    
+}
+
+.numeracion_alfabetica{
+    list-style: lower-alpha;
+    margin-left: 60px;
+   padding: 5px;
+   text-align: justify;
+   margin-right: 100px;
+}
+.sin_viñeta{
+    list-style: none;
+    padding: 0px;
+    margin-right: 100px;
+}
+
+.cuadrado{
+    list-style: square;
+    padding: 0px;
+    margin-right: 100px;
+}
+
+table,th,tr,td{
+border: solid 2px black;
+border-collapse: collapse;
+
+padding: 10px;
+}
+
+table{
+    margin-top: 30px;
+    margin-left: 100px;
+  
+    text-align: center;
+}
+
+ td:first-child {
+    width: 200px;
+    
+  }
+  td:nth-child(2) {
+    width: 200px;
+  }
+  td:nth-child(3) {
+    width: 200px;
+  }
+  td:last-child {
+    width: 250px;
+  }
+
+  .partido{
+        font-size: 15px;
+
+  }
+
+  .grupo_p{
+    margin-left: 80px;
+  
+}
+
+.oculto{
+    border-bottom: hidden;
+}
+
+#Formulario1{
+
+    margin-top: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    border: none;
+    width: 80%;
+    background-color: rgb(146, 219, 176);
+}
+
+
+.sinborde{
+    border:none
+}
+
+
+#bloque1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 1150px;
+    background-image: url("../images/cancha.jpg");
+    background-size:cover;
+    justify-content: START;
+    margin: 50px auto;
+    align-items: stretch;
+   
+  }
+  #bloque2{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 5px;
+    justify-content: start;
+    margin-left: 70px;
+
+  }
+  #bloque3{
+    margin-top:10px;
+    color: #FFFFFF;
+    padding: 2px;
+    background-color: rgb(27, 70, 15); 
+    opacity: 0.8;
+    padding: 3px;
+}
+
+#grid_1{
+    display: grid;
+    background-color: rgb(27, 70, 15); 
+    width: 100%;
+    height: auto;
+   
+}
+
+#grid_2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+    margin-left: 20px;
+    margin-top:10px ;
+}
+
+#grid_3{
+    margin-top:10px;
+    color: #FFFFFF;
+    padding: 2px;
+    background-color: rgb(27, 70, 15); 
+    opacity: 0.8;
+    padding: 3px;
+    
+}
+
+.borde_Especial{
+    margin: 20px;
+    border:solid rgb(24, 53, 36) 5px;
+    padding: 10px;
+}
+
+.boton_enviar{
+    text-align: center;
+    background-color: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: cadetblue;
+}
+
+.grid-container > div {  
+    text-align: center;
+    padding: 20px;
+}
+  
+.grid-1{
+    grid-column: 1 / 2;
+ }
+  
+.grid-2{
+    grid-column: 2 / 4;
+}
+
+.grid-2>.input-text{
+    width: 100%;
+}
+
+.grid-3 {
+    grid-column: 1 / 4;
+    text-align: justify;
+}
+
+.grid-3 > p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media(max-width:768px){
+    .grid-container > div {  
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .grid-1{
+        grid-column: 1 / 4;
+     }
+      
+    .grid-2{
+        grid-column: 1 / 4;
+    }
+}
